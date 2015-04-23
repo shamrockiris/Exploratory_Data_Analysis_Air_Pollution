@@ -10,13 +10,13 @@ The zip file contains two files:
 
 PM2.5 Emissions Data (summarySCC_PM25.rds): This file contains a data frame with all of the PM2.5 emissions data for 1999, 2002, 2005, and 2008. For each year, the table contains number of tons of PM2.5 emitted from a specific type of source for the entire year. Here are the first few rows.
 
-     fips      SCC Pollutant Emissions  type year
- 4  09001 10100401  PM25-PRI    15.714 POINT 1999
- 8  09001 10100404  PM25-PRI   234.178 POINT 1999
- 12 09001 10100501  PM25-PRI     0.128 POINT 1999
- 16 09001 10200401  PM25-PRI     2.036 POINT 1999
- 20 09001 10200504  PM25-PRI     0.388 POINT 1999
- 24 09001 10200602  PM25-PRI     1.490 POINT 1999
+-     fips      SCC Pollutant Emissions  type year
+- 4  09001 10100401  PM25-PRI    15.714 POINT 1999
+- 8  09001 10100404  PM25-PRI   234.178 POINT 1999
+- 12 09001 10100501  PM25-PRI     0.128 POINT 1999
+- 16 09001 10200401  PM25-PRI     2.036 POINT 1999
+- 20 09001 10200504  PM25-PRI     0.388 POINT 1999
+- 24 09001 10200602  PM25-PRI     1.490 POINT 1999
  
 fips: A five-digit number (represented as a string) indicating the U.S. county
 
@@ -43,7 +43,7 @@ Assignment
 
 The overall goal of this assignment is to explore the National Emissions Inventory database and see what it say about fine particulate matter pollution in the United states over the 10-year period 1999–2008.
 
-plot1~5.R answers the following 5 questions and plot1~5.png is the graphs.
+###plot1~5.R answers the following 5 questions and plot1~5.png is the graphs.
 
 
 1. Have total emissions from PM2.5 decreased in the United States from 1999 to 2008? Using the base plotting system, make a plot showing the total PM2.5 emission from all sources for each of the years 1999, 2002, 2005, and 2008.
